@@ -1,0 +1,11 @@
+{
+  "version": "2.4.0",
+  "notes": "نسخه 2.4.0 منتشر شد. برای دیدن تغییرات، یادداشت انتشار را ببینید.",
+  "pub_date": "2026-10-31T00:04:59.929Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQlVYYkZ6N01lZ2oxQ0pYT2UvWVNwNDl3d2FWeFFsckUrWWJqVHZndCtkWGZ5b3EreHVaNlNXbnVEc0lRNHhFbTNGb29SRDY2ZkYxRlpqNXJOMWh4andZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDA1MDk3CWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjQuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi40LjAKUGxGOFI1QlZWeHJLZjRwYXEwQTBjcFRTamlGbDNncG84UlVlZUhDazhXVXltMmRKYjRyNWJZa1V3OFh4ZFdTU0JDMitTeXluTFVGWHM3S3AzZGdEQ2c9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.4.0/MetaWizard-GYM-Manager_2.4.0_x64-setup.exe"
+    }
+  }
+}
