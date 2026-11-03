@@ -1,0 +1,62 @@
+name: Publish signed Windows release
+
+# This workflow lives in the public release repository. The private source
+# workflow pushes a `release` branch containing the signed installer and
+# latest.json; this repository's own GITHUB_TOKEN creates the GitHub Release.
+on:
+  push:
+    branches:
+      - release
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release assets
+        uses: actions/checkout@v4
+
+      - name: Read version
+        id: meta
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(tr -d '[:space:]' < version.txt)"
+          test -n "$version"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+
+      - name: Validate assets
+        shell: bash
+        env:
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          test -f "MetaWizard-GYM-Manager_${VERSION}_x64-setup.exe"
+          test -f "MetaWizard-GYM-Manager_${VERSION}_x64-setup.exe.sig"
+          test -f latest.json
+
+      - name: Create or update the release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.meta.outputs.tag }}
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          asset="MetaWizard-GYM-Manager_${VERSION}_x64-setup.exe"
+          assets=("$asset" "$asset.sig" latest.json)
+
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${assets[@]}" --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --latest
+          else
+            gh release create "$TAG" "${assets[@]}" \
+              --repo "$GITHUB_REPOSITORY" \
+              --target "$GITHUB_SHA" \
+              --title "MetaWizard GYM Manager $VERSION" \
+              --notes-file release-notes.txt \
+              --latest
+          fi

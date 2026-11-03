@@ -1,0 +1,11 @@
+{
+  "version": "2.6.0",
+  "notes": "- اضافه شدن قابلیت ارسال پیامک.\r\n- اضافه شدن قابلیت اتصال درگاه پرداخت زیبال.\r\n- اضافه شدن قابلیت تغییر دسترسی های کاربری.\r\n- اضافه شدن قابلیت تغییر نام کمد ها و رله کمد ها.\r\n- رفع برخی از باگ ها و مشکلات.\r\n",
+  "pub_date": "2026-11-03T09:55:04.195Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQldHZmVtYm5lUjQ4NVFRUmhWOVRwRzlwUFJycTBQWHp0NHk2TXBQT2hGMlorTXYvSDlmdFhxZTl5NDYrbDFSQmxJUXhBaTU0c24vcDdYbHBES24zNXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjk5NzAxCWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjYuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi42LjAKcGYrbFpsTmV6bVd3Z05JRHJ0RVEzS1lsMzFOVmNucnBGSXUydy9DUlhRNWNQcGkwUjN0QSt3ZkVac0tIUE5PblBOMkpaaVVMWGNHeHZZWllEdmpVRGc9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.6.0/MetaWizard-GYM-Manager_2.6.0_x64-setup.exe"
+    }
+  }
+}
