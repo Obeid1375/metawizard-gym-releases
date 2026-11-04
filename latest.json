@@ -1,0 +1,11 @@
+{
+  "version": "2.6.1",
+  "notes": "- رفع باگ شمارش روزهای اعتبار اشتراک زمانی که برنامه بسته است.\r\n- رفع باگ نمایش‌داده‌نشدن هشدار سه‌روزهٔ پایان اشتراک.\r\n- رفع باگ قفل‌نشدن برنامه پس از پایان اعتبار اشتراک.\r\n- رفع باگ تمدید اشتراک از صفحهٔ قفل با کد مالک.\r\n",
+  "pub_date": "2026-11-04T22:15:23.025Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQmJoc1YyTjJOQmo4RWNOOEIvcEVWTEJiK1dlMHhyYTIyejhtQ0lwU3dFbGlIdFBuV0Z0L3lPcWN6ZGlBanNvTHk0VERkdEZuOVFkZ0tibVRlM0JqcmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODMwNTIwCWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjYuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi42LjEKaTZIRnpPbG0rbHcxODhTQ1JzdzA3RlN5S2R1RWx2Wld0VHorbE9PSFZCUTFyZzN0MXBsczBFcWVSd3ByWUl5N3Ria2tiN3U0cHQveWF4NG95WFZSRFE9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.6.1/MetaWizard-GYM-Manager_2.6.1_x64-setup.exe"
+    }
+  }
+}
