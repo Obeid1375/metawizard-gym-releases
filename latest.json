@@ -1,0 +1,11 @@
+{
+  "version": "2.7.1",
+  "notes": "- رفع مشکلات گزارش شده.\r\n- فعال‌سازی آفلاین با فایل لایسنس امضاشده و قید اختیاری دستگاه.\r\n- حذف روش قدیمی تمدید با کد؛ تمدید فقط با فایل لایسنس جدید انجام می‌شود.\r\n- حفظ اعتبار لایسنس‌های فعال نسخه‌های قبلی تا پایان دورهٔ فعلی.\r\n- امکان صدور لایسنس بر اساس تعداد روز در ابزار لایسنس‌ساز.\r\n",
+  "pub_date": "2026-11-07T09:09:28.892Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQmZiZlRSRVo1dHRsdHc1V083Rll6QSttRnBPTDk1ZDZnam96My9TQ29mQzV6VUJQaDRtakVFa3VRNzdGS0ovdkpxeGlHTmNsaVhJOGRrc0ExdEQyZ2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyNTY4CWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjcuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi43LjEKRTNTUWVTSkRISThUb2JnTUhhS1ZNYmRIbFA0L1Q3SnBnOHNCZTB1NzNvVFdPN2swNCtCRWF2WGg5YmNlRTYvcnkvOEdyQ0tzTkxFK1EvYkxTaU55RGc9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.7.1/MetaWizard-GYM-Manager_2.7.1_x64-setup.exe"
+    }
+  }
+}
