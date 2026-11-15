@@ -1,0 +1,11 @@
+{
+  "version": "2.8.0",
+  "notes": "- اضافه شدن قابلیت ویرایش و حذف اشتراک ها.\r\n",
+  "pub_date": "2026-11-15T19:01:23.139Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQmNZYllOb3ZPYWNod1lTT3E4cXkyUEt4czdsSVkxSXJyYnZXUWFiQjBKN2pXQmRBbUcreWxuVjNpUG9IcVJUYnNqaEYzOHRQTEpNZlIxZEVVOXUvZlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzY5MjgxCWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjguMF94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi44LjAKZ1libmRhUVlrZDh5KzN3RWZIZGNOZ2FtaUpONllkZ3RFcnJ5amZSb3JSczRKSFQweXBYVHZQcjRENWlsMXN2TWlTWXYydHhQL1RvWW8wUFNsMjh1RFE9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.8.0/MetaWizard-GYM-Manager_2.8.0_x64-setup.exe"
+    }
+  }
+}
