@@ -1,0 +1,11 @@
+{
+  "version": "2.8.1",
+  "notes": "- خروجی گرفتن از جزئیات عضو باشگاه به صورت اکسل و PDF.\r\n- امکان ویرایش و حذف پرداخت‌های هر عضو از پرونده.\r\n- ثبت فقط یک ورود و یک خروج برای هر عضو در هر روز.\r\n",
+  "pub_date": "2026-11-27T13:28:30.741Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUN2ladVNrOUwxQldXVExRbUpHbFh3dUZHV2Vldit0cGFuSmdMSTdVTHZrdllXcEkya0RYdlRhcnM5cHdQdXkzTkQyUDJDSFk4enpDQkJNd2dsOEJFWFBiaWlaYlYrT2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg2MTA3CWZpbGU6TWV0YVdpemFyZCBHWU0gTWFuYWdlcl8yLjguMV94NjQtc2V0dXAuZXhlCXZlcnNpb246Mi44LjEKUFRqNExSbUMzM0YzUU53RytNQWZrRkl3N3ZpMk5KbUd4bTFSOXlyM0JjcHlKajhjaG9nZk5wRWxOVWZicHcyVVhTeS9abSs2Z21jbU8rcVFGUm84QlE9PQo=",
+      "url": "https://github.com/Obeid1375/metawizard-gym-releases/releases/download/v2.8.1/MetaWizard-GYM-Manager_2.8.1_x64-setup.exe"
+    }
+  }
+}
